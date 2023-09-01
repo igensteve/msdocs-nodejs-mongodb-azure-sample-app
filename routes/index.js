@@ -28,7 +28,7 @@ router.post('/addTask', function(req, res, next) {
     taskName: taskName,
     createDate: createDate
   });
-  console.log(`Adding some good stuff on a new task ${taskName} - createDate ${createDate}`)
+  console.log(`Adding some good stuff on this cloned branch a new task ${taskName} - createDate ${createDate}`)
 
   task.save()
       .then(() => { 
