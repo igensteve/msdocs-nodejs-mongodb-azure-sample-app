@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - msdocs-expressjs-mongodb-ign
+name: Build and deploy Node.js app to Azure Web App - msdocs-expressjs-mongodb-IGN
 
 on:
   push:
@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'msdocs-expressjs-mongodb-ign'
+          app-name: 'msdocs-expressjs-mongodb-IGN'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_83575B8539D64B9CADDC133385AB0330 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_718046FCE5224EBB81C126CF7AC21951 }}
           package: .
